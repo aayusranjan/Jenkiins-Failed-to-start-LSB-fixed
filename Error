@@ -1,0 +1,19 @@
+ jenkins.service - LSB: Start Jenkins at boot time
+     Loaded: loaded (/etc/init.d/jenkins; generated)
+     Active: failed (Result: exit-code) since  <TIME>; 13ms ago
+       Docs: man:systemd-sysv-generator(8)
+    Process: 5030 ExecStart=/etc/init.d/jenkins start (code=exited, status=1/FAILURE)
+
+xyz systemd[1]: jenkins.service: Failed with result 'exit-code'.
+xyz systemd[1]: Failed to start LSB: Start Jenkins at boot time.
+dpkg: error processing package jenkins (--configure):
+ installed jenkins package post-installation script subprocess returned error exit status 1
+Processing triggers for man-db (2.9.4-2) ...
+Errors were encountered while processing:
+ jenkins
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+ jenkins.service - LSB: Start Jenkins at boot time
+     Loaded: loaded (/etc/init.d/jenkins; generated)
+     Active: failed (Result: exit-code) since  <TIME> IST; 13ms ago
+       Docs: man:systemd-sysv-generator(8)
+    Process: 5030 ExecStart=/etc/init.d/jenkins start (code=exited, status=1/FAILURE)
